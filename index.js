@@ -17,8 +17,9 @@ class Route {
 let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue'];
 x = eastWest.findIndex(function (element){ element === this.beginningLocation.horizontal})
 y = eastWest.findIndex(function (element) { element === this.endingLocation.horizontal})
+
   blocksTravelled(){
-return (x - y ) + (this.beginningLocation.vertical -this.endingLocation.vertical);
+    return (x - y ) + (this.beginningLocation.vertical -this.endingLocation.vertical);
   }
 
 }
