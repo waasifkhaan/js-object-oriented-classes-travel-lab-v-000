@@ -6,7 +6,7 @@ class Driver {
 
   }
 
-  veto() {
-    return `No, I must disagree`;
+  yearsExperienceFromBeginningOf(year) {
+    return ${this.startDate}.year - year;
   }
 }
