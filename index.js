@@ -19,7 +19,7 @@ x = eastWest.findIndex(function (element){ element === this.beginningLocation.ho
 y = eastWest.findIndex(function (element) { element === this.endingLocation.horizontal})
 
   blocksTravelled(){
-    return (x - y ) + (this.beginningLocation.vertical -this.endingLocation.vertical);
+    return Math.abs(x - y ) + Math.abs(this.beginningLocation.vertical -this.endingLocation.vertical);
   }
 
 }
