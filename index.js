@@ -9,9 +9,9 @@ class Driver {
 }
 
 class Route {
-  constructor(x,y){
-      this.beginningLocation = x;
-      this.endingLocation = y;
+  constructor(beginningLocation,endingLocation){
+      this.beginningLocation = beginningLocation;
+      this.endingLocation = endingLocation;
 }
 
 let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue'];
