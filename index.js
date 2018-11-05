@@ -17,7 +17,7 @@ let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'P
 x = eastWest.findIndex(this.beginningLocation.horizontal)
 y = eastWest.findIndex(this.endingLocation.horizontal)
 blocksTravelled(){
-return (this.beginningLocation.horizontal - this.endingLocation.horizontal) + (this.beginningLocation.vertical -this.endingLocation.vertical);
+return (x - y ) + (this.beginningLocation.vertical -this.endingLocation.vertical);
 }
 estimatedTime(){
 
