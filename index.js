@@ -15,8 +15,7 @@ class Route {
 }
 
 let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue'];
-t = eastWest.findIndex(function (element){ element === this.beginningLocation.horizontal})
-y = eastWest.findIndex(function (element) { element === this.endingLocation.horizontal})
+
 t = eastWest.indexOf(this.beginningLocation.horizontal)
 s = eastWest.indexOf(this.endingLocation.horizontal)
 }
