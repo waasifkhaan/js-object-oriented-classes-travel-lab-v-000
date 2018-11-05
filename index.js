@@ -12,7 +12,12 @@ class Route {
   constructor(x,y){
       this.beginningLocation = x;
       this.endingLocation = y;
-  }
+}
 
-
+blocksTravelled(){
+  
+}
+estimatedTime(){
+  
+}
 }
