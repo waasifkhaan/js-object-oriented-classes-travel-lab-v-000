@@ -21,7 +21,4 @@ y = eastWest.findIndex(function (element) { element === this.endingLocation.hori
 return (x - y ) + (this.beginningLocation.vertical -this.endingLocation.vertical);
   }
 
-  estimatedTime(){
-
-  }
 }
