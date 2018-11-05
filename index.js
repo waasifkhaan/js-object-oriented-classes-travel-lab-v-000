@@ -13,8 +13,8 @@ class Route {
       this.beginningLocation = beginningLocation;
       this.endingLocation = endingLocation;
 }
-t = eastWest.indexOf(this.beginningLocation.horizontal)
-s = eastWest.indexOf(this.endingLocation.horizontal)
+t = eastWest.indexOf(this.beginningLocation.horizontal);
+s = eastWest.indexOf(this.endingLocation.horizontal);
 
   blocksTravelled(){
     return Math.abs(t - s ) + Math.abs(this.beginningLocation.vertical -this.endingLocation.vertical);
