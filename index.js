@@ -25,4 +25,14 @@ class Route {
       this.endingLocation.vertical - this.beginningLocation.vertical;
     return Math.abs(horizontalDistance) + Math.abs(verticalDistance);
   }
+
+  estimatedTime(peak) {
+    if (peak){
+      return blocksTravelled()/2 ;}
+    else {
+      return blocksTravelled()/3 ; 
+    } 
+    } 
+    
+  }
 }
